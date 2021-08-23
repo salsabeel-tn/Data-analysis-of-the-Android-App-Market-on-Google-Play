@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import seaborn as sns
+import warnings
 """this code was written in a Jupyter notebook, thus, many magic functions like %matplotlib inline are not suited for use in other IDEs, 
 if you are not intending to run these in a notebook than you shall find the appropriate functions and libraries"""
 
@@ -77,9 +79,7 @@ layout = {'shapes': [{
 
 plotly.offline.iplot({'data': data, 'layout': layout})
 %matplotlib inline
-import seaborn as sns
 sns.set_style("darkgrid")
-import warnings
 warnings.filterwarnings("ignore")
 
 # Select rows where both 'Rating' and 'Size' values are present (ie. the two values are not null)

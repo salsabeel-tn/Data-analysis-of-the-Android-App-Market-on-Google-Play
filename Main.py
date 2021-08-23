@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-#read in dataset
 """this code was written in a Jupyter notebook, thus, many magic functions like %matplotlib inline are not suited for use in other IDEs, 
 if you are not intending to run these in a notebook than you shall find the appropriate functions and libraries"""
+
+#read in dataset
 apps_with_duplicates = pd.read_csv("C:/Users/salsa/DataCamp_projects/GooglePlay-market-analysis/Data/googleplaystore.csv")
 
 # Drop duplicates from apps_with_duplicates
